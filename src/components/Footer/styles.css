@@ -8,5 +8,6 @@ footer {
   background: rgb(177, 175, 175);
   position: fixed;
   bottom: 0;
+  padding: 0;
   left: 0;
 }

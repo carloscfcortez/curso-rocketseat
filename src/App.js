@@ -1,16 +1,19 @@
-import React from "react";
-import Routes from "./routes";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Main from "./pages/main";
+import React from 'react'
+import Routes from './routes'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Container from './components/Container'
 
-import "./styles.css";
+import './styles.css'
 
 const App = () => (
-  <div className="App">
+  <div className='App'>
     <Header />
-    <Routes />
+    <Container>
+      <Routes />
+    </Container>
+
     <Footer />
   </div>
-);
-export default App;
+)
+export default App
